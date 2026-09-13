@@ -7,14 +7,14 @@
 </div>
 
 ## Usage
-#### Installing
+#### Installing (Updating)
 ###### GNU/Linux
 ```bash
 bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/heads/main/scripts/install.sh)
 ```
 ###### Windows (WIN32)
 ```powershell
-
+# Not yet supported. However, you can still download the repo as .zip and extract it to %LOCALAPPDATA%\nvim (C:\Users\<YourUsername>\AppData\Local\nvim)
 ```
 
 #### Keymaps
@@ -54,7 +54,7 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 |           Keys             |                      Descriptions                        |           Mode           |
 |----------------------------|----------------------------------------------------------|--------------------------|
 |Alt + M<br>(Alt + Shift + m)|Open / Close the <u>**M**</u>ark<u>**d**</u>own viewer    | Normal / Visual / Insert |
-|Alt + d                     |<u>**J**</u>ump to function/variable <u>**d**</u>efinition| Normal                   |
+|Alt + d                     |<u>**J**</u>ump to function/variable <u>**d**</u>efinition| Normal / Visual / Insert |
 |Alt + i                     |View documentation/type info                              | Normal / Visual / Insert |
 |Alt + r                     |Rename variable across the project                        | Normal / Visual / Insert |
 |Alt + v                     |View all references to this function                      | Normal / Visual / Insert |

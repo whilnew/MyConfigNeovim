@@ -9,7 +9,6 @@ fi
 if [ -f /etc/os-release ]; then
     . /etc/os-release
     
-    # Kiểm tra biến ID hoặc ID_LIKE chứa debian / arch
     if [[ "$ID" =~ (debian|ubuntu) ]] || [[ "$ID_LIKE" =~ (debian|ubuntu) ]]; then
         echo "Debian(-based) detected"
         sudo apt update
@@ -32,5 +31,7 @@ fi
 git clone https://github.com/whilnew/MyConfigNeovim.git ~/.config/nvim
 
 nvim
+
+echo "Scripts finished successfully with exit code 0."
 
 exit 0
