@@ -1,7 +1,7 @@
 <div align="center">
 
 # MyConfigNeovim
-###### Neovim .lua configuration pack I made and sharing to anyone who dont want to spend whole day just for customzing Neovim but still want a fancy look of it (like me).
+###### Neovim .lua configuration pack I made and sharing to anyone who dont want to spend whole day just for customizing Neovim but still want a fancy look of it (like me).
 ![My configuration Neovim preview](./media/nvim-preview.gif)
 
 </div>
