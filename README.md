@@ -54,8 +54,8 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 ###### In buffers
 |           Keys             |                      Descriptions                        |           Mode           |
 |----------------------------|----------------------------------------------------------|--------------------------|
-|Alt + M<br>(Alt + Shift + m)|Open / Close the <u>**M**</u>ark<u>**d**</u>own viewer    | Normal / Visual / Insert |
-|Alt + d                     |<u>**J**</u>ump to function/variable <u>**d**</u>efinition| Normal / Visual / Insert |
+|Alt + M<br>(Alt + Shift + m)|Open / Close the Markdown viewer                          | Normal / Visual / Insert |
+|Alt + d                     |Jump to function/variable definition                      | Normal / Visual / Insert |
 |Alt + i                     |View documentation/type info                              | Normal / Visual / Insert |
 |Alt + r                     |Rename variable across the project                        | Normal / Visual / Insert |
 |Alt + v                     |View all references to this function                      | Normal / Visual / Insert |
