@@ -1,7 +1,7 @@
 <div align="center">
 
 # MyConfigNeovim
-###### Neovim .lua configuration pack I made and sharing to anyone who dont want to spend whole day just for custom Neovim but still want a fancy look of it (like me).
+###### Neovim .lua configuration pack I made and sharing to anyone who dont want to spend whole day just for customzing Neovim but still want a fancy look of it (like me).
 ![My configuration Neovim preview](./media/nvim-preview.gif)
 
 </div>
@@ -33,7 +33,7 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 |Alt + l                     |Right                              | Normal / Visual / Insert |
 |Alt + J<br>(Alt + Shift + j)|Down                               | Normal / Visual / Insert |
 |Alt + K<br>(Alt + Shift + k)|Up                                 | Normal / Visual / Insert |
-|Alt + o|New line and Insert                | Normal / Visual / Insert |
+|Alt + o                     |New line and Insert                | Normal / Visual / Insert |
 
 ###### Navigation (buffer)
 |             Keys             |   Descriptions     |          Mode            |
