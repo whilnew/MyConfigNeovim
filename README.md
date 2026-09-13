@@ -8,7 +8,7 @@
 
 ## Usage
 #### Installing (Updating)
-###### GNU/Linux
+###### GNU/Linux (and even Termux)
 ```bash
 bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/heads/main/scripts/install.sh)
 ```
