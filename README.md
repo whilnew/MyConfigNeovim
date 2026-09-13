@@ -32,8 +32,8 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 |Alt + j                     |Down                               | Normal / Visual / Insert |
 |Alt + k                     |Up                                 | Normal / Visual / Insert |
 |Alt + l                     |Right                              | Normal / Visual / Insert |
-|Alt + J<br>(Alt + Shift + j)|Down                               | Normal / Visual / Insert |
-|Alt + K<br>(Alt + Shift + k)|Up                                 | Normal / Visual / Insert |
+|Alt + J<br>(Alt + Shift + j)|Big down                           | Normal / Visual / Insert |
+|Alt + K<br>(Alt + Shift + k)|big up                             | Normal / Visual / Insert |
 |Alt + o                     |New line and Insert                | Normal / Visual / Insert |
 
 ###### Navigation (buffer)
@@ -62,3 +62,4 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 |Alt + a                     |Quick fix (Code Action)                                   | Normal / Visual / Insert |
 |Alt + F<br>(Alt + Shift + f)|Format code                                               | Normal / Visual / Insert |
 
+> Thanks to all the authors of the plugins i use (in lua/core/plugins.lua)

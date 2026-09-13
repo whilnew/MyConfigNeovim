@@ -51,7 +51,7 @@ map("i", "<A-1>", "<C-o>^", { desc = "Jump to beginning of line while in Insert 
 map("n", "<leader>ex", "<cmd>Neotree toggle<cr>", { desc = "Toggle File Explorer" })
 
 -- Open / Close the Markdown viewer
-map({ "n", "v", "i" }, "<Alt-M>", "<cmd>MarkdownPreviewToggle<cr>", { desc = "Toggle Markdown viewer" })
+map({ "n", "v", "i" }, "<A-M>", "<cmd>MarkdownPreviewToggle<cr>", { desc = "Toggle Markdown viewer" })
 
 -- Search with Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Find files in project" })
