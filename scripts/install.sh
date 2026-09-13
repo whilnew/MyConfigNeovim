@@ -17,7 +17,7 @@ if [ -f /etc/os-release ]; then
         echo "Unknown distribution. Exited with code 2"
         exit 2
     fi
-elif [ -f $PREFIX/etc ]; then
+elif [ -n "$TERMUX_VERSION" ]; then
     ehco "Termux detected"
     pkg install -y nodejs neovim git
 else
