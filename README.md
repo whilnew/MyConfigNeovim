@@ -14,7 +14,8 @@ bash <(curl -fSsL https://raw.githubusercontent.com/whilnew/MyConfigNeovim/refs/
 ```
 ###### Windows (WIN32)
 ```powershell
-# Not yet supported. However, you can still download the repo as .zip and extract it to %LOCALAPPDATA%\nvim (C:\Users\<YourUsername>\AppData\Local\nvim)
+# Not yet supported.
+# Dont worry, you can still download the repo as .zip and extract it to %LOCALAPPDATA%\nvim (C:\Users\<YourUsername>\AppData\Local\nvim)
 ```
 
 #### Keymaps
